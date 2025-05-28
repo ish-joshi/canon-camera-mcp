@@ -2,6 +2,11 @@
 
 A minimal server for controlling Canon cameras via the Canon Camera Control API (CCAPI), using FastMCP for streamable HTTP transport.
 
+#### Demo 🎥
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/59icGndauho/0.jpg)](http://www.youtube.com/watch?v=59icGndauho "Canon MCP Server Demo")
+
+[LinkedIn Post](https://www.linkedin.com/posts/ishanjoshi99_claude-ai-canon-camera-ive-been-activity-7333390072735535104-Sl0b?utm_source=share&utm_medium=member_desktop&rcm=ACoAACE9cFEBBFrka0tZ6SOykeuUIa1qgqTv7WE)
+
 ## Features
 
 - Control Canon cameras remotely via CCAPI.
@@ -35,7 +40,7 @@ To run the server with Claude Desktop Client
 {
   "mcpServers": {
     "Canon Camera Controller": {
-      "command": "/Users/ishan/.local/bin/uv",
+      "command": "uv",
       "args": [
         "--directory",
         "/path/to/dir",
